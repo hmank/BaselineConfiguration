@@ -26,7 +26,7 @@ Configuration BaselineConfiguration-2021-Feb-11-1402PM-runbook_2021-Feb-11-1402P
     }
 
     $OrganizationName = $Credsglobaladmin.UserName.Split('@')[1]
-    Import-DscResource -ModuleName 'Microsoft365DSC' -ModuleVersion '1.21.120.1'
+    Import-DscResource -ModuleName 'Microsoft365DSC' -ModuleVersion '1.21.505.1'
 
     Node localhost
     {
