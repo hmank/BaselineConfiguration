@@ -26,7 +26,7 @@ Configuration GoldExport-2021-Jun-03-0806AM-runbook_2021-Jun-03-0806AM
     }
 
     $OrganizationName = $Credsglobaladmin.UserName.Split('@')[1]
-    Import-DscResource -ModuleName 'Microsoft365DSC' -ModuleVersion '1.21.505.1'
+    Import-DscResource -ModuleName 'Microsoft365DSC' -ModuleVersion '1.21.922.1'
 
     Node localhost
     {
