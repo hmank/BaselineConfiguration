@@ -1,4 +1,4 @@
-﻿# Generated with Microsoft365DSC version 1.21.922.1
+﻿# Generated with Microsoft365DSC version 1.22.112.1
 # For additional information on how to use Microsoft365DSC, please visit https://aka.ms/M365DSC
 param (
     [parameter()]
@@ -26,7 +26,7 @@ Configuration GoldExport-2021-Jun-03-0806AM-runbook_2021-Jun-03-0806AM
     }
 
     $OrganizationName = $Credsglobaladmin.UserName.Split('@')[1]
-    Import-DscResource -ModuleName 'Microsoft365DSC' -ModuleVersion '1.21.922.1'
+    Import-DscResource -ModuleName 'Microsoft365DSC' -ModuleVersion '1.22.112.1'
 
     Node localhost
     {
